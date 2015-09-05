@@ -1,8 +1,7 @@
 {
-  "name": "react-redux-starter",
+  "name": "react-es6-starter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Starter project for a very basic React / ES6 web app",
   "scripts": {
     "test": "./node_modules/.bin/karma start ./tooling/karma.config.js",
     "start": "./node_modules/.bin/http-server",
@@ -10,8 +9,8 @@
     "webpack": "./node_modules/.bin/webpack --config tooling/webpack.js",
     "webpack-watch": "./node_modules/.bin/webpack --config tooling/webpack.js --watch --colors"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dave Kerr",
+  "license": "MIT",
   "dependencies": {
     "react": "0.x.x"
   },

@@ -1,6 +1,6 @@
-import React = from 'react';
+import React from 'react';
 import $ from 'jquery';
-import Home = require('./home.js');
+import Home from './home.js';
  
 describe('Home', () => {
 
