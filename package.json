@@ -11,6 +11,10 @@
   },
   "author": "Dave Kerr",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dwmkerr/react-es6-starter.git"
+  }
   "dependencies": {
     "react": "0.x.x"
   },
@@ -30,5 +34,8 @@
     "karma-webpack": "1.x.x",
     "phantomjs": "1.x.x",
     "webpack": "^1.12.1"
+  },
+  "engines":{
+    "node": "0.12.x"
   }
 }
