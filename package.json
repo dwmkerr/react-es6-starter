@@ -14,7 +14,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/dwmkerr/react-es6-starter.git"
-  }
+  },
   "dependencies": {
     "react": "0.x.x"
   },
@@ -35,7 +35,7 @@
     "phantomjs": "1.x.x",
     "webpack": "^1.12.1"
   },
-  "engines":{
+  "engines": {
     "node": "0.12.x"
   }
 }
