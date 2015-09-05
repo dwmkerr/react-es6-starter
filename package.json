@@ -24,12 +24,12 @@
   "devDependencies": {
     "babel-core": "5.x.x",
     "babel-loader": "5.x.x",
-    "core-js": "1.x.x",
     "jasmine": "2.x.x",
     "jasmine-core": "2.x.x",
     "jquery": "^2.1.4",
     "karma": "0.x.x",
     "karma-cli": "0.x.x",
+    "karma-coverage": "^0.5.1",
     "karma-jasmine": "0.x.x",
     "karma-phantomjs-launcher": "0.x.x",
     "karma-webpack": "1.x.x",

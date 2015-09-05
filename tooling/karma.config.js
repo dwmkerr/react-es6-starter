@@ -4,13 +4,15 @@ module.exports = function(config) {
   config.set({
     browsers: ['PhantomJS'],
     files: [
-      { pattern: '../tooling/tests.webpack.js', watched: false },
+      //  We need to polyfill as PhantomJS doesn't support 'bind'.
+      '../node_modules/babel-core/browser-polyfill.js',
+      '../**/*.spec.js'
     ],
     frameworks: ['jasmine'],
     preprocessors: {
-      '../tooling/tests.webpack.js': ['webpack'],
+      '../**/*.spec.js': ['webpack'],
     },
-    reporters: ['dots'],
+    reporters: ['progress'],
     singleRun: true,
     webpack: {
       module: {
@@ -27,8 +29,9 @@ module.exports = function(config) {
     webpackMiddleware: {
       noInfo: true
     },
+    
     plugins: [
-      require("karma-webpack"),
+      require('karma-webpack'),
       'karma-jasmine',
       'karma-phantomjs-launcher'
     ]
