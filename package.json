@@ -16,10 +16,11 @@
     "url": "git://github.com/dwmkerr/react-es6-starter.git"
   },
   "dependencies": {
-    "react": "0.x.x"
+    "react": "0.x.x",
+    "babel": "5.x.x",
+    "webpack": "^1.12.1"
   },
   "devDependencies": {
-    "babel": "5.x.x",
     "babel-core": "5.x.x",
     "babel-loader": "5.x.x",
     "core-js": "1.x.x",
@@ -32,8 +33,7 @@
     "karma-jasmine": "0.x.x",
     "karma-phantomjs-launcher": "0.x.x",
     "karma-webpack": "1.x.x",
-    "phantomjs": "1.x.x",
-    "webpack": "^1.12.1"
+    "phantomjs": "1.x.x"
   },
   "engines": {
     "node": "0.12.x"
