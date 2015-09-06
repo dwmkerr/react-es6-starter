@@ -5,7 +5,7 @@
   "scripts": {
     "test": "./node_modules/.bin/karma start ./tooling/karma.config.js",
     "start": "./node_modules/.bin/http-server",
-    "postinstall": "./node_modules/.bin/webpack ./tooling/webpack.js",
+    "postinstall": "./node_modules/.bin/webpack --config ./tooling/webpack.js",
     "webpack": "./node_modules/.bin/webpack --config tooling/webpack.js",
     "webpack-watch": "./node_modules/.bin/webpack --config tooling/webpack.js --watch --colors"
   },
