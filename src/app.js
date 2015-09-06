@@ -1,4 +1,3 @@
-import React from 'react/addons';
-import Home from './home/home';
-
-React.render(<Home />, document.getElementById('root'));
+const PI = 3.14;
+let vals = [1, 2, 3].map(x => x*2);
+console.log("Pi is " + 3.14 + " and vals is " + vals);
