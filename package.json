@@ -18,12 +18,12 @@
   "dependencies": {
     "react": "0.x.x",
     "babel": "5.x.x",
+    "babel-loader": "5.x.x",
     "webpack": "^1.12.1",
     "http-server": "0.x.x"
   },
   "devDependencies": {
     "babel-core": "5.x.x",
-    "babel-loader": "5.x.x",
     "jasmine": "2.x.x",
     "jasmine-core": "2.x.x",
     "jquery": "^2.1.4",
