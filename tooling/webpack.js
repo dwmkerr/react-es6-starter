@@ -5,13 +5,13 @@ module.exports = {
   //  Defines the entrypoint of our application.
   entry: path.resolve(__dirname, '../src/app.js'),
 
-  //  Where we bundle to.
+  //  Bundle to a ./public/bundle.js file.
   output: {
     path: path.resolve(__dirname, '../public'),
     filename: 'bundle.js'
   },
 
-  //  Other stuff - in our case babel for anything that is *.js or *.jsx.
+  //  Use babel for anything that is *.js or *.jsx.
   module: {
     loaders: [
       {
