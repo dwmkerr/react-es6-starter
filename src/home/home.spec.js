@@ -13,7 +13,7 @@ describe('Home', () => {
     var node = React.findDOMNode(component);
 
     //  Check the DOM looks how we'd expect it to.
-    expect($(node).children('h1').text()).toEqual("React Redux Starter");
+    expect($(node).children('h1').text()).toEqual("React ES6 Starter");
     
   });
 
