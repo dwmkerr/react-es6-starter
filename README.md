@@ -4,10 +4,10 @@ A simple starter template for a React ES6 web app
 
 [![Build Status](https://travis-ci.org/dwmkerr/react-es6-starter.svg?branch=master)](https://travis-ci.org/dwmkerr/react-es6-starter)
 
-See it running at [https://react-es6-start.herokuapp.com]. This simple
+See it running at [react-es6-starter.herokuapp.com](https://react-es6-starter.herokuapp.com/). This simple
 starter project is the companion project to the article:
 
-##### [Getting Started with React & ES6](https://todo)
+##### [Getting Started with React & ES6](http://www.dwmkerr.com/getting-started-with-react/)
 
 This project and article demonstrates:
 
