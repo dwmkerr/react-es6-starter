@@ -6,11 +6,11 @@ module.exports = function(config) {
     files: [
       //  We need to polyfill as PhantomJS doesn't support 'bind'.
       '../node_modules/babel-core/browser-polyfill.js',
-      '../**/*.spec.js'
+      '../src/**/*.spec.js'
     ],
     frameworks: ['jasmine'],
     preprocessors: {
-      '../**/*.spec.js': ['webpack'],
+      '../src/**/*.spec.js': ['webpack']
     },
     reporters: ['progress'],
     singleRun: true,
@@ -22,18 +22,11 @@ module.exports = function(config) {
             loader: 'babel-loader',
             include: path.resolve(__dirname, '../src')
           }
-        ],
-      },
-      watch: true,
+        ]
+      }
     },
-    webpackMiddleware: {
-      noInfo: true
-    },
-    
-    plugins: [
-      require('karma-webpack'),
-      'karma-jasmine',
-      'karma-phantomjs-launcher'
-    ]
+    webpackServer: {
+      noInfo: true,
+    }
   });
 };
