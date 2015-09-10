@@ -15,10 +15,6 @@ module.exports = function(config) {
     reporters: ['progress', 'coverage'],
     singleRun: true,
     webpack: {
-      debug: true,
-      node: {
-        fs: 'empty'
-      },
       entry: {},
       module: {
         preLoaders: [
