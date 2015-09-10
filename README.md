@@ -1,20 +1,15 @@
 # react-es6-starter
 
-A simple starter template for a React ES6 web app
+A simple starter template for a React ES6 web app, companion to [Getting Started with React & ES6](http://www.dwmkerr.com/getting-started-with-react/).
 
 [![Build Status](https://travis-ci.org/dwmkerr/react-es6-starter.svg?branch=master)](https://travis-ci.org/dwmkerr/react-es6-starter) [![Coverage Status](https://coveralls.io/repos/dwmkerr/react-es6-starter/badge.svg?branch=master&service=github)](https://coveralls.io/github/dwmkerr/react-es6-starter?branch=master)
 
-See it running at [react-es6-starter.herokuapp.com](https://react-es6-starter.herokuapp.com/). This simple
-starter project is the companion project to the article:
-
-##### [Getting Started with React & ES6](http://www.dwmkerr.com/getting-started-with-react/)
-
 This project and article demonstrates:
 
-1. How to get started with ES6 code using a combination of
-   Webpack and Babel
+1. How to get started with ES6 code using a combination of Webpack and Babel
 2. How to handle ESX transpilation
 3. A simple method to support unit tests for your application
+4. Code Coverage for ES6
 
 Check the code out, `npm install` and then `npm start`!
 
@@ -31,16 +26,7 @@ You can run the tests with:
 npm test
 ```
 
-## What's Missing?
-
-### Coverage
-
-It's perfectly possible to get coverage working with this setup, follow the 
-instructions on [this great post](https://medium.com/@gunnarlium/es6-code-coverage-with-babel-jspm-karma-jasmine-and-istanbul-2c1918c5bb23)
-by Gunnar Lium to see how. However, as it uses packages which are not yet 
-stable, I'm leaving this out for now. 
-
-## Other Notes
+## Notes
 
 **Heroku**
 
