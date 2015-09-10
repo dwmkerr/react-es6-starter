@@ -6,34 +6,47 @@ module.exports = function(config) {
     files: [
       //  We need to polyfill as PhantomJS doesn't support 'bind'.
       '../node_modules/babel-core/browser-polyfill.js',
-      '../**/*.spec.js'
+      '../src/**/*.spec.js'
     ],
     frameworks: ['jasmine'],
     preprocessors: {
-      '../**/*.spec.js': ['webpack'],
+      '../src/**/*.spec.js': ['webpack']
     },
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
     singleRun: true,
     webpack: {
+      debug: true,
+      node: {
+        fs: 'empty'
+      },
+      entry: {},
       module: {
+        preLoaders: [
+          {
+            test: /\.jsx?$/,
+            // exclude this dirs from coverage
+            exclude: [
+              /node_modules/,
+              /\.spec\.js/
+            ],
+            loader: 'isparta-instrumenter-loader'
+          },
+        ],
         loaders: [
           {
             test: /\.jsx?$/,      
             loader: 'babel-loader',
             include: path.resolve(__dirname, '../src')
           }
-        ],
-      },
-      watch: true,
+        ]
+      }
     },
-    webpackMiddleware: {
-      noInfo: true
+    webpackServer: {
+      noInfo: true,
     },
-    
-    plugins: [
-      require('karma-webpack'),
-      'karma-jasmine',
-      'karma-phantomjs-launcher'
-    ]
+    coverageReporter: {
+      type: 'html',
+      dir: 'coverage/'
+    }
   });
 };

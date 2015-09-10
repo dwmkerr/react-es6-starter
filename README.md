@@ -57,6 +57,11 @@ web: ./node_modules/.bin/http-server
 
 Some useful material:
 
+*Testing*
+1. [How to easily test React components with Karma and Webpack](http://qiita.com/kimagure/items/f2d8d53504e922fe3c5c)
+2. [How to implement testing and code coverage on React with Karma, Babel and Webpack](https://medium.com/@scbarrus/how-to-get-test-coverage-on-react-with-karma-babel-and-webpack-c9273d805063)
+
+*General*
 1. https://medium.com/@gunnarlium/es6-code-coverage-with-babel-jspm-karma-jasmine-and-istanbul-2c1918c5bb23
 2. http://kentor.me/posts/testing-react-and-flux-applications-with-karma-and-webpack/
 3. https://github.com/binarykitchen/gulp-jest-iojs/issues/1
