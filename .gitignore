@@ -1,4 +1,4 @@
 node_modules
 public
 !public/index.html
-tooling/coverage
+build/coverage

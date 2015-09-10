@@ -20,7 +20,6 @@ module.exports = function(config) {
         preLoaders: [
           {
             test: /\.jsx?$/,
-            // exclude this dirs from coverage
             exclude: [
               /node_modules/,
               /\.spec\.js/
@@ -41,8 +40,11 @@ module.exports = function(config) {
       noInfo: true,
     },
     coverageReporter: {
-      type: 'html',
-      dir: 'coverage/'
+      dir: '../build/coverage/',
+      reporters: [
+        { type: 'html', subdir: 'html' }, 
+        { type: 'lcov', subdir: 'lcov' }
+      ] 
     }
   });
 };
