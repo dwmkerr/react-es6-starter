@@ -14,7 +14,7 @@ This project and article demonstrates:
 Check the code out, `npm install` and then `npm start`!
 
 ```bash
-git clone git@github.com:dwmkerr\react-es6-starter.git
+git clone https://github.com/dwmkerr/react-es6-starter.git
 cd react-es6-starter
 npm install
 npm start
