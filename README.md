@@ -92,16 +92,14 @@ document.body.innerText = "Pi is " + 3.14 + " and vals is " + vals;
 
 Run the command `./node_modules/.bin/webpack --config ./tooling/webpack.config.js` and our code is built, transpiled an moved to the build folder.
 
-Now we could serve this folder using any basic webserver. For development however we often want a bit more control, such as the facility to reload the page when the source changes.
-
-You can serve the folder using node, nginx or whatever you like, but for developing we are already using webpack, so the webpack dev server will do the trick. It uses exactly the same config file as the webpack tool:
+Now we could serve this folder using any basic webserver. We are already using webpack, so the webpack dev server will do the trick. It uses exactly the same config file as the webpack tool:
 
 ```
 npm install --save-dev webpack-dev-server
 ./node_modules/.bin/webpack-dev-server --config ./tooling/webpack.config --inline
 ```
 
-The inline flag just tells the loader to drop in a little javascript to reload the page when the source changes. We don't need to tell the server where the files are, it knows that from the webpack config.
+The inline reloads the page when the source changes. We don't need to tell the server where the files are, it knows that from the webpack config.
 
 Let's stick these commands in our `package.json` for convenience:
 
@@ -362,3 +360,4 @@ Finally, when the user runs start, a dev server (as convention dictates we are i
 
 [^1]: Actually it will do a lot more than that, but this is the key feature we're interested in! Webpack is very powerful so check out [webpack.github.io](https://webpack.github.io/) to find out more.
 [^2]: [IBM Mainframes](https://www-03.ibm.com/press/us/en/pressrelease/47474.wss) anyone?
+
