@@ -52,3 +52,14 @@ Some useful material:
 2. http://kentor.me/posts/testing-react-and-flux-applications-with-karma-and-webpack/
 3. https://github.com/binarykitchen/gulp-jest-iojs/issues/1
 4. http://www.hammerlab.org/2015/02/14/testing-react-web-apps-with-mocha/
+
+## Potential Improvements
+
+[ ] Document setting up `test-debug`.
+[ ] Support ES6 and sourcemaps in the debug code.
+[ ] Build everything to `build` rather than having a `build` and `public` folder.
+[ ] Use the Webpack dev server, support live reloading and hot reloading.
+[ ] Show some component state in the React code and some component testing.
+[ ] Open the browser after `test-debug` starts.
+[ ] Show how a `build` command might differ from a `start` command (may be out of scope).
+[ ] Use global mutable state for react, leading into the next in the series (React + Redux).
