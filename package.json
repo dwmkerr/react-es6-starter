@@ -15,27 +15,27 @@
     "url": "git://github.com/dwmkerr/react-es6-starter.git"
   },
   "dependencies": {
-    "react": "0.x.x",
-    "babel": "5.x.x",
-    "babel-loader": "5.x.x",
-    "webpack": "^1.12.1"
+    "react": "^16.2.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.10.0"
   },
   "devDependencies": {
-    "babel-core": "5.x.x",
-    "html-webpack-plugin": "^1.6.1",
-    "isparta": "^3.0.4",
-    "isparta-instrumenter-loader": "^0.2.1",
-    "istanbul": "^0.3.19",
+    "babel-core": "^6.26.0",
+    "html-webpack-plugin": "^2.30.1",
+    "isparta": "^4.0.0",
+    "isparta-instrumenter-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
     "jasmine": "2.x.x",
     "jasmine-core": "2.x.x",
-    "jquery": "^2.1.4",
-    "karma": "0.x.x",
-    "karma-chrome-launcher": "^0.2.0",
-    "karma-coverage": "^0.5.2",
-    "karma-jasmine": "0.x.x",
-    "karma-phantomjs-launcher": "0.x.x",
-    "karma-webpack": "1.x.x",
-    "phantomjs": "1.x.x"
+    "jquery": "^3.3.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.9",
+    "phantomjs": "^2.1.7"
   },
   "engines": {
     "node": "0.12.x"
