@@ -2,7 +2,7 @@
 
 A simple starter template for a React ES6 web app, companion to [Getting Started with React & ES6](http://www.dwmkerr.com/getting-started-with-react/).
 
-[![Build Status](https://travis-ci.org/dwmkerr/react-es6-starter.svg?branch=master)](https://travis-ci.org/dwmkerr/react-es6-starter) [![Coverage Status](https://coveralls.io/repos/dwmkerr/react-es6-starter/badge.svg?branch=master&service=github)](https://coveralls.io/github/dwmkerr/react-es6-starter?branch=master)
+[![Build Status](https://travis-ci.org/dwmkerr/react-es6-starter.svg?branch=master)](https://travis-ci.org/dwmkerr/react-es6-starter) [![Coverage Status](https://coveralls.io/repos/dwmkerr/react-es6-starter/badge.svg?branch=master&service=github)](https://coveralls.io/github/dwmkerr/react-es6-starter?branch=master) [![GuardRails badge](https://badges.production.guardrails.io/dwmkerr/react-es6-starter.svg)](https://www.guardrails.io)
 
 This project and article demonstrates:
 
